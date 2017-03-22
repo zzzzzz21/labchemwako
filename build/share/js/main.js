@@ -137,6 +137,9 @@ mainClass.prototype ={
         $('.js-product-list-name').on('click',function(){
             $(this).parent().toggleClass('is-open');
         });
+        $('.js-service-product-list-name').on('click',function(){
+            $(this).parent().parent().toggleClass('is-open');
+        });
         $('#js-productList dt').on('click',function(){
             $(this).parent().toggleClass('is-open');
         });
